@@ -1,0 +1,44 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	font-weight: 500;
+}
+
+.topDecor {
+	display: flex;
+	justify-content: center;
+
+	gap: 50px;
+
+	width: 100%;
+
+	> li {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		> p {
+			font-weight: 500;
+
+			&:first-child {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				font-weight: 600;
+
+				width: 24px;
+				height: 24px;
+
+				background-color: #000;
+				color: #fff;
+				border-radius: 100%;
+			}
+		}
+	}
+
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(178, 188, 195, 0.5);
+}

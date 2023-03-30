@@ -1,0 +1,21 @@
+.input {
+	font-size: 18px;
+	border-radius: 6px;
+	border-color: transparent;
+	border: 1px solid transparent;
+
+	width: 644px;
+
+	padding: 15px 10px;
+}
+
+.error {
+	font-size: 13px;
+	font-weight: 500;
+	color: rgb(255, 21, 21);
+	margin-top: 6px;
+}
+
+.inputError {
+	border: 1px solid red;
+}

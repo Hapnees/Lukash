@@ -1,0 +1,25 @@
+.list {
+	display: flex;
+	gap: 10px;
+	width: 100%;
+	font-size: 14px;
+
+	border-bottom: 1px solid rgba(178, 188, 195, 0.5);
+
+	padding-bottom: 1rem;
+	margin-bottom: 50px;
+
+	> li {
+		> a {
+			color: #000;
+		}
+
+		&:last-child {
+			font-weight: 700;
+		}
+	}
+}
+
+.pointer {
+	cursor: pointer;
+}

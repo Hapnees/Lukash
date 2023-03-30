@@ -1,0 +1,28 @@
+.wrapper {
+	margin-bottom: 100px;
+}
+
+.poplarImgList {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+
+	> li {
+		text-align: center;
+		> h2 {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+		> p {
+			font-size: 14px;
+			line-height: 150%;
+			font-weight: 500;
+
+			width: 313px;
+		}
+		> img {
+			border-radius: 10px;
+			margin-bottom: 10px;
+		}
+	}
+}

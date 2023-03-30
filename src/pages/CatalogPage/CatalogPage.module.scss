@@ -1,0 +1,16 @@
+.list {
+	display: flex;
+	gap: 30px;
+	> li {
+		cursor: pointer;
+
+		> img {
+			margin-bottom: 5px;
+		}
+
+		> p {
+			text-align: center;
+			font-weight: 600;
+		}
+	}
+}

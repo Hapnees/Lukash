@@ -1,0 +1,37 @@
+.wrapper {
+}
+
+.input {
+	width: 100%;
+	font-family: Montserrat;
+
+	border: 1px solid #b2bcc3;
+	border-radius: 4px;
+	font-size: 15px;
+	font-weight: 500;
+
+	transition: box-shadow 0.3s;
+
+	padding: 10px 10px;
+
+	&:hover,
+	&:focus {
+		border-color: #0750ff;
+	}
+}
+
+.error {
+	color: red;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.inputError {
+	border-color: red;
+	box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.116);
+
+	&:hover,
+	&:focus {
+		border-color: red;
+	}
+}

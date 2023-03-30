@@ -1,0 +1,18 @@
+.textarea {
+	width: 100%;
+	font-family: Montserrat;
+
+	border: 1px solid #b2bcc3;
+	border-radius: 4px;
+	font-size: 15px;
+	font-weight: 500;
+
+	height: 166px;
+
+	padding: 10px 10px;
+
+	&:hover,
+	&:focus {
+		border-color: #0750ff;
+	}
+}

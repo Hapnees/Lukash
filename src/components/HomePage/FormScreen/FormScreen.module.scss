@@ -1,0 +1,37 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $specBgColor;
+
+	color: #fff;
+
+	margin-bottom: 100px;
+	padding: 40px 0;
+}
+
+.title {
+	font-size: 30px;
+	letter-spacing: 0.5px;
+
+	margin-bottom: 35px;
+}
+
+.subtitle {
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+.inputList {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}

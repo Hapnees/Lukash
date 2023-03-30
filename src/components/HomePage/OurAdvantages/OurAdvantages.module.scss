@@ -1,0 +1,14 @@
+.wrapper {
+	margin-bottom: 100px;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+
+	> li {
+		text-align: center;
+		font-weight: 600;
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,75 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fcf9fb;
+
+	margin-bottom: 80px;
+}
+
+.topContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 50px 0 150px 0;
+}
+
+.titleWrapper {
+	position: relative;
+
+	padding: 15px 25px 0 25px;
+
+	> svg {
+		position: absolute;
+		right: 0;
+		top: 0;
+
+		transition: fill 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			fill: #000;
+		}
+	}
+}
+
+.subtitle {
+	font-weight: 700;
+	font-size: 20px;
+
+	margin-bottom: 20px;
+}
+
+.date {
+	color: #a088f3;
+	font-weight: 500;
+
+	margin-bottom: 30px;
+}
+
+.info {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.bottomContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding-bottom: 100px;
+}
+
+.title {
+	width: 500px;
+}
+
+.bottomInfo {
+	text-align: center;
+	line-height: 150%;
+
+	width: 800px;
+}

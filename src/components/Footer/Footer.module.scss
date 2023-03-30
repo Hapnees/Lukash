@@ -1,0 +1,38 @@
+.footer {
+	display: flex;
+	justify-content: center;
+
+	background-color: #11151c;
+	padding: 50px 0;
+}
+
+.list {
+	display: flex;
+	gap: 200px;
+	font-size: 16px;
+	font-weight: 500;
+
+	> li {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		font-size: 14px;
+
+		> h1 {
+			color: #fff;
+			font-size: 16px;
+		}
+
+		> p {
+			color: #b2bcc3;
+
+			cursor: pointer;
+			transition: color 0.3s;
+
+			&:hover {
+				text-decoration: underline;
+				color: #0cf574;
+			}
+		}
+	}
+}
